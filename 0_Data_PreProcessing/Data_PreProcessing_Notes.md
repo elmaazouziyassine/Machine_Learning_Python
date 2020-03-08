@@ -18,9 +18,6 @@
 ##### ***Understand Categorical Data***
 ##### ***Understand Numerical Data***
 
-### **Step 4 : Separate Features Variables from Target Variable**
-- Feature Variables has to be stored in a MATRIX
-- Target Variable has to be stored in a VECTOR
 
 ### **Step 5 : Handle missing numerical values**
 
@@ -68,6 +65,7 @@ missing value in the Test Set.
 - Mode 1 = high frequency value 
 
 
+
 - **Step 6 : Encode categorical data**
 2 types of Categorical Data : 
 - Categorical Data which values are the same importance : countries 
@@ -75,6 +73,9 @@ missing value in the Test Set.
 
 Attention Point : For the first type, we have to prevent maching learning algorithms to think that for example Germany is greather than France or Spain.
 
+### **Step 4 : Separate Features Variables from Target Variable**
+- Feature Variables has to be stored in a MATRIX
+- Target Variable has to be stored in a VECTOR
 
 7. Feature Scaling.
 **Objective** : Put the Numerical Data at the same scale. For example : values between -1 to 1.
